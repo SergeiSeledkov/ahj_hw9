@@ -17,20 +17,16 @@
 	transition: height 1s linear 0s;
 }
 
-.open {
-	height: 130px;
-}
-
 .collapse:focus-visible, .collapse:hover {
 	outline: 3px solid #93c7fe;
 }
 
 .collapse-text {
+	box-sizing: border-box;
 	width: 400px;
 	padding: 20px;
-	margin: 1px;
 
 	font-size: 14px;
   font-family: Arial;
-	outline: 1px solid #e0e0e0;
+	border: 1px solid #e0e0e0;
 }
