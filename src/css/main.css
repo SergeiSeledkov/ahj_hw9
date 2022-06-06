@@ -1,0 +1,36 @@
+.collapse {
+	width: 90px;
+	height: 40px;
+	margin-bottom: 10px;
+
+	background-color: #0069d9;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+}
+
+.wrapper {
+	height: 0;
+
+	overflow: hidden;
+	transition: height 1s linear 0s;
+}
+
+.open {
+	height: 130px;
+}
+
+.collapse:focus-visible, .collapse:hover {
+	outline: 3px solid #93c7fe;
+}
+
+.collapse-text {
+	width: 400px;
+	padding: 20px;
+	margin: 1px;
+
+	font-size: 14px;
+  font-family: Arial;
+	outline: 1px solid #e0e0e0;
+}
